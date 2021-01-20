@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;600;800&display=swap');
+
+body {
+	font-family: Catamaran, sans-serif;
+}
+
+.container {
+	display: grid;
+	grid-template-areas: "header header header" "intro intro intro" "main main main" "footer footer footer";
+}
+
+.header {
+	background: blue;
+	grid-area: header;
+}
+
+.intro {
+	background: red;
+	grid-area: intro;
+}
+
+.main {
+	background: green;
+	grid-area: main;
+}
+
+.footer {
+	background: orange;
+	grid-area: footer;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;600;800&display=swap');
+
+/** COLORS
+#9E8B6F - Dark Brown
+#FFF5E6 - Light Brown
+#EBD8BC - Beige
+#AFD3EF - Light Blue
+#4379A1 - Dark Blue
+**/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: Catamaran, sans-serif;
+	font-size: 10px;
+	scroll-behavior: smooth;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+#navbar {
+	background: #fff5e6;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	height: 80px;
+	box-shadow: 0 0px 10px #222;
+	z-index: 11;
+}
+
+#navbar > a {
+	font-size: 2rem;
+	margin: 0 20px;
+	text-decoration: none;
+	color: #9e8b6f;
+	font-weight: 600;
+}
+
+#welcome-section {
+	height: 100vh;
+	background: linear-gradient(#afd3ef, #4379a1);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff5e6;
+}
+
+#welcome-section > p {
+	font-size: 3rem;
+	font-weight: 200;
+	text-transform: lowercase;
+}
+
+#welcome-section > h1 {
+	font-size: 6rem;
+	font-weight: 800;
+	letter-spacing: 1rem;
+}
+
+h2 {
+	z-index: 1;
+	text-align: center;
+	padding: 20px 0;
+	font-size: 3rem;
+	font-weight: 600;
+	background: #fff5e6;
+	color: #9e8b6f;
+	display: block;
+	box-shadow: 0 0 10px #222;
+}
+
+#projects {
+	background: #4379a1;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px;
+}
+
+#projects .project-tile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px 0;
+}
+
+#projects .project-tile img {
+	width: 250px;
+	box-shadow: 0 5px 10px #222;
+}
+
+#projects .project-tile a {
+	text-decoration: none;
+	font-size: 2rem;
+	font-family: Catamaran, sans-serif;
+	color: #fff5e6;
+	margin-top: 10px;
+}
+
+#contact {
+	background: #fff5e6;
+	box-shadow: 0 0px 10px #222;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem;
+}
+
+#contact > p {
+	color: #9e8b6f;
+	font-size: 3rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+#contact .links {
+	margin-top: 2em;
+	display: flex;
+	flex-direction: row;
+}
+
+#contact .links > a {
+	color: #9e8b6f;
+	text-decoration: none;
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 0 2em;
+}

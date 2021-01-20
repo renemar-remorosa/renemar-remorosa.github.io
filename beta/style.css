@@ -1,0 +1,152 @@
+/* COLORS */
+/**
+BLUE = #57A5FF
+DARKER BLUE = #2B5380
+SKY BLUE = #A3CEFF
+GREY BLUE = #576B82
+DARK BLUE = #4584CC
+**/
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;600;800&display=swap');
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: 10px;
+	font-family: Catamaran, sans-serif;
+}
+
+#navbar {
+	top: 0;
+	left: 0;
+	background: #a3ceff;
+	height: 7em;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0 0 8px #1d252e;
+}
+
+#navbar ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+#navbar ul li a {
+	color: #2b5380;
+	font-size: 1.5rem;
+	text-decoration: none;
+	margin: 0 2em;
+}
+
+/** WELCOME SECTION **/
+
+#welcome-section {
+	background: linear-gradient(#4584cc, #2b5380);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #a3ceff;
+	text-shadow: 0 1px 5px rgb(32, 32, 32);
+}
+
+#welcome-section p {
+	font-size: 2.5rem;
+	font-weight: lighter;
+	text-transform: lowercase;
+}
+
+#welcome-section h1 {
+	font-size: 7rem;
+	margin: 20px 0;
+	font-weight: bold;
+}
+
+/** PROJECTS **/
+
+#projects {
+	background: #a3ceff;
+}
+
+#projects h2 {
+	text-align: center;
+	color: #2b5380;
+	font-size: 2rem;
+	padding: 2em 0;
+	font-weight: 600;
+}
+
+#projects div .videos {
+	margin: 0 auto;
+	padding: 3em 0;
+	width: 1080px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#projects h3 {
+	font-size: 1.5rem;
+	text-align: center;
+	color: #2b5380;
+}
+
+#projects iframe {
+	border: 10px solid #576b82;
+	margin: 2em 0;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px #1d252e;
+}
+
+#projects::before {
+	display: block;
+	content: "";
+	height: 10px;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+#projects .websites {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 1.5rem;
+	padding: 2em;
+}
+
+/** FOOTER **/
+
+#contact {
+	background: linear-gradient(#2b5380, #4584cc);
+	height: 150px;
+}
+
+#contact p {
+	font-size: 1.5rem;
+	color: #a3ceff;
+	text-align: center;
+	padding: 2rem;
+}
+
+#contact ul {
+	font-size: 1.3rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#contact ul li {
+	margin: 0 2rem;
+}
+
+#contact ul li a {
+	text-decoration: none;
+	color: #a3ceff;
+	font-weight: bold;
+}

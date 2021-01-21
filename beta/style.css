@@ -83,8 +83,6 @@ body {
 
 #projects div .videos {
 	margin: 0 auto;
-	padding: 3em 0;
-	width: 1080px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -122,9 +120,10 @@ body {
 
 /** FOOTER **/
 
-#contact {
+footer#contact {
 	background: linear-gradient(#2b5380, #4584cc);
-	height: 150px;
+	height: 160px;
+	width: 100%;
 }
 
 #contact p {
@@ -134,14 +133,15 @@ body {
 	padding: 2rem;
 }
 
-#contact ul {
+#contact .links ul {
 	font-size: 1.3rem;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-bottom: 20px;
 }
 
-#contact ul li {
+#contact .links ul li {
 	margin: 0 2rem;
 }
 

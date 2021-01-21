@@ -7,7 +7,6 @@
 		height: 10vh;
 		position: fixed;
 		width: 100%;
-		border: 2px solid black;
 		box-shadow: 0 0 8px #1d252e;
 	}
 
@@ -91,7 +90,7 @@
 
 	/** FOOTER **/
 
-	#contact {
+	footer#contact {
 		background: linear-gradient(#2b5380, #4584cc);
 		height: 100%;
 	}
@@ -102,7 +101,7 @@
 		text-align: center;
 	}
 
-	#contact ul {
+	#contact .links ul {
 		font-size: 1.3rem;
 		display: flex;
 		flex-direction: column;
@@ -110,11 +109,11 @@
 		padding-bottom: 20px;
 	}
 
-	#contact ul li {
+	#contact .links ul li {
 		margin: 5px 0;
 	}
 
-	#contact ul li a {
+	#contact .links ul li a {
 		text-decoration: none;
 		color: #a3ceff;
 		font-weight: bold;
@@ -130,7 +129,6 @@
 		height: 10vh;
 		position: fixed;
 		width: 100%;
-		border: 2px solid black;
 		box-shadow: 0 0 8px #1d252e;
 	}
 
@@ -183,7 +181,7 @@
 		text-align: center;
 		color: #2b5380;
 		font-size: 1.5rem;
-		padding: 1em 0;
+		padding: 1em 2em;
 		font-weight: 600;
 	}
 
@@ -214,27 +212,29 @@
 
 	/** FOOTER **/
 
-	#contact {
+	footer#contact {
 		background: linear-gradient(#2b5380, #4584cc);
 		height: 100%;
+		width: 100%;
 	}
 
 	#contact p {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 		color: #a3ceff;
 		text-align: center;
+		padding: 2rem;
 	}
 
-	#contact ul {
+	#contact .links ul {
 		font-size: 1.3rem;
 		display: flex;
 		flex-direction: column;
-		align-items: center;
-		padding-bottom: 20px;
+		justify-content: center;
+		margin-bottom: 20px;
 	}
 
-	#contact ul li {
-		margin: 5px 0;
+	#contact .links ul li {
+		margin: 10px 0;
 	}
 
 	#contact ul li a {

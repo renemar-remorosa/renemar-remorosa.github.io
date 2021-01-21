@@ -1,16 +1,13 @@
-@media screen and (min-width: 411px) {
-	body {
-		font-size: 10px;
-		font-family: sans-serif;
-	}
+/* ----------- Galaxy S6 ----------- */
 
+/* Portrait */
+@media screen and (max-device-width: 360px) {
 	#navbar {
-		top: 0;
-		left: 0;
-		background: red;
+		background: #a3ceff;
 		height: 10vh;
 		position: fixed;
-		width: 100vw;
+		width: 100%;
+		border: 2px solid black;
 		box-shadow: 0 0 8px #1d252e;
 	}
 
@@ -18,15 +15,12 @@
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		align-items: center;
-		height: 100%;
 	}
 
 	#navbar ul li a {
 		color: #2b5380;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		text-decoration: none;
-		margin: 0 2em;
 	}
 
 	/** WELCOME SECTION **/
@@ -49,10 +43,11 @@
 	}
 
 	#welcome-section h1 {
-		text-align: center;
-		font-size: 3.5rem;
+		font-size: 4rem;
 		margin: 10px 0;
 		font-weight: bold;
+		text-align: center;
+		line-height: 1.2;
 	}
 
 	/** PROJECTS **/
@@ -72,7 +67,7 @@
 	#projects div .videos {
 		margin: 0 auto;
 		padding: 3em 0;
-		width: 360px;
+		width: 100%;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -81,15 +76,15 @@
 
 	#projects iframe {
 		border: 8px solid #576b82;
-		margin: 1.5em 0;
-		border-radius: 5px;
-		box-shadow: 0 4px 8px #1d252e;
+		margin: 2em 0;
+		border-radius: 3px;
+		box-shadow: 0 4px 5px #1d252e;
 	}
 
 	#projects::before {
 		display: block;
 		content: "";
-		height: 50px;
+		height: 10vh;
 		visibility: hidden;
 		pointer-events: none;
 	}
@@ -105,152 +100,18 @@
 		font-size: 1.2rem;
 		color: #a3ceff;
 		text-align: center;
-		padding: 1rem;
 	}
 
 	#contact ul {
 		font-size: 1.3rem;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
-		padding-bottom: 1rem;
+		padding-bottom: 20px;
 	}
 
 	#contact ul li {
-		margin: 5px 2rem;
-	}
-
-	#contact ul li a {
-		text-decoration: none;
-		color: #a3ceff;
-		font-weight: bold;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	body {
-		font-size: 10px;
-		font-family: sans-serif;
-		width: 100vw;
-	}
-
-	#navbar {
-		top: 0;
-		left: 0;
-		background: green;
-		height: 5vh;
-		position: fixed;
-		width: 100vw;
-		box-shadow: 0 0 8px #1d252e;
-	}
-
-	#navbar ul {
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		align-items: center;
-		height: 100%;
-	}
-
-	#navbar ul li a {
-		color: #2b5380;
-		font-size: 1.5rem;
-		text-decoration: none;
-		margin: 0 2em;
-	}
-
-	/** WELCOME SECTION **/
-
-	#welcome-section {
-		background: linear-gradient(#4584cc, #2b5380);
-		height: 100vh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		color: #a3ceff;
-		text-shadow: 0 1px 5px rgb(32, 32, 32);
-		width: 100%;
-	}
-
-	#welcome-section p {
-		font-size: 2.5rem;
-		font-weight: lighter;
-		text-transform: lowercase;
-	}
-
-	#welcome-section h1 {
-		text-align: center;
-		font-size: 5rem;
-		margin: 10px 0;
-		font-weight: bold;
-	}
-
-	/** PROJECTS **/
-
-	#projects {
-		background: #a3ceff;
-	}
-
-	#projects h2 {
-		text-align: center;
-		color: #2b5380;
-		font-size: 2.5rem;
-		padding: 1em 0;
-		font-weight: 600;
-	}
-
-	#projects div .videos {
-		margin: 0 auto;
-		padding: 3em 0;
-		width: 720px;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-around;
-	}
-
-	#projects iframe {
-		border: 8px solid #576b82;
-		margin: 2em 0;
-		border-radius: 5px;
-		box-shadow: 0 4px 8px #1d252e;
-	}
-
-	#projects::before {
-		display: block;
-		content: "";
-		height: 50px;
-		visibility: hidden;
-		pointer-events: none;
-	}
-
-	/** FOOTER **/
-
-	#contact {
-		background: linear-gradient(#2b5380, #4584cc);
-		height: 100%;
-	}
-
-	#contact p {
-		font-size: 1.3rem;
-		color: #a3ceff;
-		text-align: center;
-		padding: 1rem;
-	}
-
-	#contact ul {
-		font-size: 1.4rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding-bottom: 1rem;
-	}
-
-	#contact ul li {
-		margin: 5px 2rem;
+		margin: 5px 0;
 	}
 
 	#contact ul li a {

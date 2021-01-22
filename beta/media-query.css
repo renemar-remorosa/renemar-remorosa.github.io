@@ -1,7 +1,7 @@
 /* ----------- Galaxy S6 ----------- */
 
 /* Portrait */
-@media screen and (min-device-width: 360px) {
+@media screen and (min-device-width: 360px) and (max-device-width: 410px) {
 	#navbar {
 		background: #a3ceff;
 		height: 10vh;
@@ -88,42 +88,41 @@
 		pointer-events: none;
 	}
 
-	/** FOOTER **/
-
 	footer#contact {
 		background: linear-gradient(#2b5380, #4584cc);
-		height: 100%;
-	}
-
-	#contact p {
-		font-size: 1.2rem;
-		color: #a3ceff;
-		text-align: center;
-	}
-
-	#contact .links ul {
-		font-size: 1.3rem;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding-bottom: 20px;
+		font-size: 1.5rem;
+		color: #a3ceff;
+		height: 200px;
 	}
 
-	#contact .links ul li {
+	footer#contact p {
+		font-size: 1.3rem;
+		display: block;
+		padding: 1em 0;
+	}
+
+	footer#contact div ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer#contact div ul li {
 		margin: 5px 0;
 	}
 
-	#contact .links ul li a {
-		text-decoration: none;
+	footer#contact div ul li a {
 		color: #a3ceff;
-		font-weight: bold;
+		text-decoration: none;
 	}
 }
 
 /* ----------- Google Pixel XL ----------- */
 
 /* Portrait and Landscape */
-@media screen and (min-device-width: 411px) {
+@media screen and (min-device-width: 411px) and (max-device-width: 767px) {
 	#navbar {
 		background: #a3ceff;
 		height: 10vh;
@@ -210,36 +209,33 @@
 		pointer-events: none;
 	}
 
-	/** FOOTER **/
-
 	footer#contact {
 		background: linear-gradient(#2b5380, #4584cc);
-		height: 100%;
-		width: 100%;
-	}
-
-	#contact p {
-		font-size: 1.5rem;
-		color: #a3ceff;
-		text-align: center;
-		padding: 2rem;
-	}
-
-	#contact .links ul {
-		font-size: 1.3rem;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
-		margin-bottom: 20px;
-	}
-
-	#contact .links ul li {
-		margin: 10px 0;
-	}
-
-	#contact ul li a {
-		text-decoration: none;
+		align-items: center;
+		font-size: 1.5rem;
 		color: #a3ceff;
-		font-weight: bold;
+		height: 200px;
+	}
+
+	footer#contact p {
+		font-size: 1.3rem;
+		display: block;
+		padding: 1em 0;
+	}
+
+	footer#contact div ul {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer#contact div ul li {
+		margin: 5px 0;
+	}
+
+	footer#contact div ul li a {
+		color: #a3ceff;
+		text-decoration: none;
 	}
 }

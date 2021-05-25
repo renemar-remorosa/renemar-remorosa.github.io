@@ -107,6 +107,7 @@
 	footer#contact div ul {
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 	}
 
 	footer#contact div ul li {
@@ -228,6 +229,7 @@
 	footer#contact div ul {
 		display: flex;
 		flex-direction: column;
+		text-align: center;
 	}
 
 	footer#contact div ul li {

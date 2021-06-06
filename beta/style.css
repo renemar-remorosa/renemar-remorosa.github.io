@@ -99,7 +99,8 @@ body {
 }
 
 #projects iframe {
-	border: 8px solid#2b5380;
+	border-top: 10px solid#e6e6e6;
+	border-bottom: 10px solid#e6e6e6;
 	margin: 2em 0;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px #1d252e;
